@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: cornflowerblue;
+}
+
+.snyggper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    height: 50vh;
+
+}
