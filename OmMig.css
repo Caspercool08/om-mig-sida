@@ -1,9 +1,11 @@
 h1 {
     text-align: center;
     margin-top: 4vh;
+    font-size: 3rem;
 }
 body {
     background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .snyggper {
@@ -17,11 +19,9 @@ body {
 }
 .nav a{
     color: black;
-    font-size: 3vh;
+    font-size: 2rem;
     display: block;
-    padding: 2vh 10vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    padding: 2vh 5vw;
 }
 .nav {
     margin: 0;
@@ -34,13 +34,75 @@ body {
 .nav li {
     margin: 0;
 }
-p {
+.div2 {
 line-height: 1.5;
-width: 30vh;
+width: 15vw;
 background-color: rgb(0, 139, 139);
-padding: 10px;
-margin: 5vh;
 border-style: solid;
 border-radius: 15px ;
+margin: 10px;
+}
+.textbox {
+margin: 5%;
+}
+
+.div1 {
+display: flex;
+justify-content: center;
+margin: 10% auto;
+height: 30vh;
+width: 30vw
+}
+.div1 img {
+    padding: 4%;
+}
+.div3 {
+display: flex;
+justify-content: center;
+margin: 10% auto;
+}
+    
+.vannertext {
+    margin: 2%;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1%;
+    
+}
+h2 {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 3rem;
+}
+h3 {
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 3rem;
+}
+.div4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 7%;
+}
+    
+.div4 img {
+    display: block;
+    padding: 2%;
+}
+
+.div5 {
+    line-height: 1.5;
+    width: 15vw;
+    margin-left: 10%;
+}
+
+.textbox2 {
+    border-style: solid;
+    border-radius: 15px;
+    background-color: rgb(127, 191, 255);
+    padding: 5px;
+    margin-bottom: 50px;
 }
 
